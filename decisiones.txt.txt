@@ -1,0 +1,29 @@
+ DECISIONES 
+ 1. Problema que resolví
+En este proyecto hice una aplicación para llevar el control de los préstamos de equipos de laboratorio. La idea era que los estudiantes pudieran ver qué equipos hay disponibles y solicitar uno. También que el administrador pudiera ver las solicitudes, aprobarlas, rechazarlas y marcar cuando un estudiante devuelve el equipo.
+
+ 2. Herramientas que utilicé
+Para hacer la aplicación utilicé React Native con Expo y TypeScript. Trabajé todo el código en Visual Studio Code y usé Supabase como base de datos para guardar la información de los usuarios, equipos y préstamos. Al terminar subí el proyecto a GitHub para poder entregarlo.
+
+ 3. Base de datos
+En Supabase creé tres tablas principales que son perfiles, equipos y préstamos. En perfiles guardé los datos de los estudiantes como su nombre, carné, carrera, foto y el tipo de usuario. En equipos guardé el nombre, descripción, imagen y si estaba disponible. Y en préstamos guardé qué estudiante solicitó el equipo y en qué estado estaba su solicitud. También configuré las relaciones entre las tablas y algunos permisos para que cada usuario pudiera hacer lo que le corresponde.
+
+ 4. Decisiones que tomé
+Decidí hacer diferentes pantallas para que la aplicación estuviera más ordenada, como la pantalla de equipos, historial, perfil y administración. También hice dos tipos de usuarios, estudiante y administrador. El estudiante puede solicitar equipos y ver sus préstamos, mientras que el administrador puede revisar y controlar las solicitudes. Para los préstamos utilicé los estados pendiente, aprobado, rechazado y devuelto.
+
+ 5. Qué delegué a la inteligencia artificial y por qué
+Utilicé inteligencia artificial para que me ayudara con algunas partes del código, organizar las pantallas, hacer las consultas de la base de datos y conectar Supabase con la aplicación. También le pedí ayuda cuando me aparecían errores que no sabía cómo solucionar. La utilicé porque me ayudaba a avanzar más rápido, pero igual tenía que ir probando el código y revisar que todo funcionara bien.
+
+ 6. Dos problemas que tuve y cómo los resolví
+
+Primer problem
+Cuando intentaba registrar usuarios me aparecía un error que decía "email rate limit exceeded" y no me dejaba continuar. Entonces revisé la configuración de Supabase y las opciones de autenticación. También probé crear un usuario directamente desde Supabase para ver si podía iniciar sesión. Así me di cuenta de que el problema estaba relacionado con el límite de correos y no directamente con el formulario de registro.
+
+**Segundo problema:**
+Otro problema que tuve fue cuando estaba subiendo el proyecto a GitHub, porque ejecuté el comando git init en una carpeta equivocada. Lo hice en la carpeta programación cuando tenía que hacerlo dentro de mi-app. Por eso Git me mostraba un aviso de que estaba agregando un repositorio dentro de otro. Para solucionarlo tuve que corregir la ubicación, quitar la carpeta del repositorio anterior y después subir el proyecto desde la carpeta correcta.
+
+ 7. Cómo comprobé que funcionaba
+Fui probando las diferentes funciones de la aplicación como iniciar sesión ver los equipos disponibles, solicitar préstamos y entrar como administrador. También hice pruebas para ver si las solicitudes cambiaban de pendiente a aprobado y después a devuelto. Revisé en Supabase que los datos se estuvieran guardando y que el administrador pudiera controlar las solicitudes.
+
+8. Reflexión
+Con este proyecto aprendí varias cosas, principalmente que aunque la inteligencia artificial ayuda bastante a programar, no siempre el código funciona a la primera. A veces aparecen errores y uno tiene que revisar qué está pasando y buscar cómo solucionarlos. También aprendí un poco más sobre cómo trabajar con Supabase, organizar las pantallas de una aplicación y subir un proyecto a GitHub. Al final me sirvió para practicar más lo que hemos aprendido en clase y entender mejor cómo funciona una aplicación conectada a una base de datos.

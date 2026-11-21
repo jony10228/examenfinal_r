@@ -1,0 +1,50 @@
+﻿
+  
+  
+
+PROMPTS UTILIZADOS
+
+
+Durante el desarrollo de mi proyecto utilicé inteligencia artificial como apoyo para crear algunas funciones, resolver errores y mejorar el funcionamiento de la aplicación.
+
+
+1. Ayúdame a diseñar una base de datos en Supabase para un sistema de préstamos de equipos de laboratorio, utilizando las tablas perfiles, equipos y préstamos, con sus respectivas relaciones.
+
+
+2. Necesito implementar dos tipos de usuarios, estudiante y administrador. Quiero que cada uno tenga acceso únicamente a las funciones que le corresponden.
+
+
+3. Ayúdame a configurar las políticas de seguridad de Supabase para evitar que un estudiante pueda modificar préstamos o acceder a información que no le corresponde.
+
+
+4. Crea un catálogo de equipos que obtenga la información directamente desde Supabase y muestre su nombre, descripción, imagen y disponibilidad.
+
+
+5. Necesito que al solicitar un préstamo se registre automáticamente en la base de datos con estado pendiente, para que posteriormente el administrador pueda revisarlo.
+
+
+6. Ayúdame a implementar las funciones para aprobar, rechazar y registrar la devolución de los equipos, actualizando también su disponibilidad.
+
+
+7. Revisa mi archivo App.tsx y corrige los errores necesarios para integrar las pantallas de catálogo, historial y administración sin perder las funciones anteriores.
+
+
+8. Necesito una pantalla donde el estudiante pueda modificar su nombre, carné y carrera, además de seleccionar una fotografía desde su computadora y guardarla en Supabase Storage.
+
+
+9. Al intentar registrar nuevos usuarios aparece el error "email rate limit exceeded". Ayúdame a identificar qué configuración de Supabase está causando el problema.
+
+
+10. Git me muestra una advertencia porque inicialicé el repositorio en una carpeta diferente. Explícame cómo corregirlo sin perder los archivos y subir correctamente el proyecto a GitHub.
+
+
+PROMPTS ADICIONALES DE REVISIÓN
+
+
+11. Revisa que las relaciones entre las tablas perfiles, equipos y préstamos sean correctas y que cada solicitud esté vinculada al usuario y al equipo correspondiente.
+
+
+12. Ayúdame a comprobar que un equipo aprobado como préstamo no pueda volver a prestarse hasta que el administrador registre su devolución.
+
+
+13. Revisa el funcionamiento general de la aplicación y señala posibles errores de seguridad, validación de formularios o actualización de datos antes de entregar el proyecto.
